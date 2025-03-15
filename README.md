@@ -23,12 +23,14 @@ Siempre me propuse a agregar cosas a Simply Love de **Zarzob** y **Zankoku** as�
 ![Preferencia-2](Images/PlayerColorPrefs.png)
 - Cambio de color para el rival en la Gs Box / Changed opponent color in the Gs Box
 ![Preferencia-3](Images/RivalColorPrefs.png)
-- Actualización y modificación sencilla / Easy update and modification
 
 # vista
 - Pantalla de opciones / Options screen
 ![Vista De Opciones](Images/Opcions.png)
 - Vista de preferencias disponibles / View available preferences
 ![Vista De Preferencias](Images/Prefs.png)
+- Vista en juego / View in game
+![Vista en Juego](Images/ViewFlash.png)
 
 # instalación
+Proximamente/Soon...
