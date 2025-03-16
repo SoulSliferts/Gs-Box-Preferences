@@ -39,11 +39,11 @@ Cambiar el tamaño de la gs box dependiendo del número de jugadores / Change th
 local height = 80
 -- the player is 6+... increment the size for the box
 if (NumEntries > 5) then
-for i=5,NumEntries do
-height = 16 * i
-end
+	for i=5,NumEntries do
+		height = 16 * i
+	end
 else
-height = 80
+	height = 80
 end
 ```
 Cambia el color del jugador y rival / Changes the color of the player and opponent
