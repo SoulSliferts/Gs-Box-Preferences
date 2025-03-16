@@ -74,7 +74,7 @@ end
 
 # instalación
 **Debes descargar los archivos que contiene la carpeta files y remplazarlos en las ubicaciones correspondientes / You must download the files contained in the files folder and replace them in the corresponding locations**
-- Para el archivo [99 SL-ThemePrefs.lua](Files/99_SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts / For the archive **99 SL-ThemePrefs.lua** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts
+- Para el archivo [99 SL-ThemePrefs.lua](Files/99-SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts / For the archive **99 SL-ThemePrefs.lua** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts
 ![Preferencia-1](Images/SLFile.png)
 - Para el archivo **metrics.ini** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release / For the archive **metrics.ini** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release
 ![Preferencia-1](Images/Metrics.png)
