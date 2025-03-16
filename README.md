@@ -30,9 +30,46 @@ Siempre me propuse a agregar cosas a Simply Love de **Zarzob** y **Zankoku** as�
 ![Vista en Juego](Images/ViewFlash.png)
 
 # codigo
-- Máximo de jugadores en pantalla / Maximum number of players on screen
+Máximo de jugadores en pantalla / Maximum number of players on screen
 ```lua
 local NumEntries = ThemePrefs.Get("MaxPlayersDisplayGsBox") -- Set Mx players 5-15
+```
+Cambiar el tamaño de la gs box dependiendo del número de jugadores / Change the size of the gs box depending on the number of players
+```lua
+local height = 80
+-- the player is 6+... increment the size for the box
+if (NumEntries > 5) then
+	for i=5,NumEntries do
+		height = 16 * i
+	end
+else
+	height = 80
+end
+```
+Cambia el color del jugador y rival / Changes the color of the player and opponent
+```lua
+local self_color = color(ThemePrefs.Get("PlayerColorGsBox")) -- set color player
+local rival_color = color(ThemePrefs.Get("RivalColorGsBox")) -- set color rival
+```
+Adapta la posicion de la gs box segun la cantidad de jugadores / Adapt the position of the gs box according to the number of players
+```lua
+-- fix the position in y for the box
+			if (NumEntries > 5) then
+				self:x(_screen.cx + 80)
+				local f = 10
+				for i=5,NumEntries do
+					-- the box is 10+... fix the broken position y
+					if (NumEntries >= 10) then
+						self:y(_screen.cy + 160 - f)
+						f = f + 7
+					else
+						self:y(_screen.cy + 160 - f)
+						f = f + 5
+					end
+				end
+			else
+				self:x(_screen.cx + 80):y(_screen.cy + 160)
+			end
 ```
 
 # instalación
