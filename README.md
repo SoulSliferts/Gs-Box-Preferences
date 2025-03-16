@@ -41,7 +41,7 @@ local height = 80
 if (NumEntries > 5) then
 	for i=5,NumEntries do
 		height = 16 * i
-	end
+		end
 else
 	height = 80
 end
@@ -54,22 +54,22 @@ local rival_color = color(ThemePrefs.Get("RivalColorGsBox")) -- set color rival
 Adapta la posicion de la gs box segun la cantidad de jugadores / Adapt the position of the gs box according to the number of players
 ```lua
 -- fix the position in y for the box
-			if (NumEntries > 5) then
-				self:x(_screen.cx + 80)
-				local f = 10
-				for i=5,NumEntries do
-					-- the box is 10+... fix the broken position y
-					if (NumEntries >= 10) then
-						self:y(_screen.cy + 160 - f)
-						f = f + 7
-					else
-						self:y(_screen.cy + 160 - f)
-						f = f + 5
-					end
-				end
-			else
-				self:x(_screen.cx + 80):y(_screen.cy + 160)
-			end
+if (NumEntries > 5) then
+	self:x(_screen.cx + 80)
+	local f = 10
+	for i=5,NumEntries do
+	-- the box is 10+... fix the broken position y
+		if (NumEntries >= 10) then
+			self:y(_screen.cy + 160 - f)
+			f = f + 7
+		else
+			self:y(_screen.cy + 160 - f)
+			f = f + 5
+		end
+	end
+else
+	self:x(_screen.cx + 80):y(_screen.cy + 160)
+end
 ```
 
 # instalación
