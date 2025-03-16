@@ -11,6 +11,7 @@ Implementación de Preferencias para Groove Stats Box / Implementation of Prefer
 - [Codigo/Code](#codigo)
 - [Instalación/Installation](#instalación)
 - [Advertencias/Warnings](#advertencias)
+- [Créditos y Autor/Credits and Author](#Créditos%20y%20Autor)
 
 # descripción
 Siempre me propuse a agregar cosas a Simply Love de **Zarzob** y **Zankoku** así que después de leer todo en la guía de desarrollo que tiene el juego logre entender como hacer dichas modificaciones las cuales con ayuda de Zarzob logre hacer mi propia modificación la cual salió de la idea de que la Gs Box solo mostraba los mejores 5 jugadores y yo en mi BoogieStats tengo 9 rivales y que aumentaran en el futuro entonces fue cuando surgió la idea de ver como lograr dicha tarea con algo de tiempo y mucha lectura de código que aún no entiendo del todo logre hacer que la Gs Box pueda tener asta un máximo de 15 jugadores además de reposicionar en pantalla este elemento y como plus agregue la opción de elegir qué color se muestra el jugador y el rival en la Gs Box / I always intended to add things to Simply Love by **Zarzob** and **Zankoku** so after reading everything in the development guide that the game has I managed to understand how to make these modifications which with the help of Zarzob I managed to make my own modification which came from the idea that the Gs Box only showed the best 5 players and I in my BoogieStats have 9 rivals and that will increase in the future so that was when the idea arose to see how to achieve this task with some time and a lot of reading of code that I still do not fully understand I managed to make the Gs Box can have up to a maximum of 15 players in addition to repositioning this element on the screen and as a plus I added the option to choose what color the player and the rival are displayed in the Gs Box
@@ -83,7 +84,16 @@ end
 - Para el archivo [Scorebox.lua](Files/Scorebox.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\BGAnimations\ScreenSelectMusic overlay\PerPlayer / For the archive [Scorebox.lua](Files/Scorebox.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\BGAnimations\ScreenSelectMusic overlay\PerPlayer
 ![Preferencia-1](Images/ScoreBox.png)
 
+**una ves completes estos pasos esta modificacion estara en funcionamiento / Once you complete these steps, this modification will be working**
+
 # advertencias
 - !Esta modificacion solo funciona en los lenguajes del juego Español y Ingles! / !This mod only works in the game languages Spanish and English!
 - !Al usar más de 5 jugadores en pantalla puede que surjan bugs como que los nombres queden visibles aun cuando se está cambiando de canción(puede que no lo arregle para no saturar tanto el código de la gs box es solo una excepción visual)! / !When using more than 5 players on screen, bugs may arise such as names remaining visible even when changing songs (I may not fix this to avoid cluttering the gs box code, it's just a visual exception)!
 - !Esta modificación en 2 jugadores en partida rompe la gs box por la forma en la que se muestra por favor dejar las opciones de máximo de jugadores en 5(trataré de arreglar eso para que se desactive de manera automática en 2 jugadores)! / !This 2 player mod breaks the gs box the way it displays, please leave the max player options at 5 (I'll try to fix that so it automatically disables in 2 players)!
+
+# Créditos y Autor
+Quiero agradecer a las siguientes personas por su apoyo para realizar esta modificacion / I would like to thank the following people for their support in making this modification:
+
+- `Zarzob` por crear la bifurcación de ![Simply Love](https://github.com/zarzob/Simply-Love-SM5) que a todos los jugadores de DDR, ITG Y PUMP nos a fasinado / `Zarzob` for creating the fork of ![Simply Love](https://github.com/zarzob/Simply-Love-SM5) that all DDR, ITG and PUMP players have been fascinated by
+- `Zarzob` y `Zankoku` por guiarme para lograr esta modificacion / `Zarzob` and `Zankoku` for guiding me to achieve this modification
+- La comunidad completa de **DDR, ITG y PUPM** por mantener el juego vivo y en constante actualizacion / The entire **DDR, ITG, and PUPM** community for keeping the game alive and constantly updated
