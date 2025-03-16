@@ -11,7 +11,6 @@ Implementación de Preferencias para Groove Stats Box / Implementation of Prefer
 - [Codigo/Code](#codigo)
 - [Instalación/Installation](#instalación)
 - [Advertencias/Warnings](#advertencias)
-- [Contribuir/](#Contribuir)
 - [Créditos y Autor/Credits and Author](#Créditos)
 
 # descripción
