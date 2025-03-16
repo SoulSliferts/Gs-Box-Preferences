@@ -74,13 +74,13 @@ end
 
 # instalación
 **Debes descargar los archivos que contiene la carpeta files y remplazarlos en las ubicaciones correspondientes / You must download the files contained in the files folder and replace them in the corresponding locations**
-- Para el archivo [99 SL-ThemePrefs.lua](Files/99-SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts / For the archive **99 SL-ThemePrefs.lua** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts
+- Para el archivo [99 SL-ThemePrefs.lua](Files/99%20SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts / For the archive [99 SL-ThemePrefs.lua](Files/99%20SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts
 ![Preferencia-1](Images/SLFile.png)
-- Para el archivo **metrics.ini** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release / For the archive **metrics.ini** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release
+- Para el archivo [metrics.ini](Files/metrics.ini) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release / For the archive [metrics.ini](Files/metrics.ini) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release
 ![Preferencia-1](Images/Metrics.png)
-- Para los archivos de **en.ini y es.ini** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Languages / For the archives of **en.ini y es.ini** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Languages
+- Para los archivos de [en.ini](Files/en.ini) y [es.ini](Files/es.ini) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Languages / For the archives of [en.ini](Files/en.ini) and [es.ini](Files/es.ini) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Languages
 ![Preferencia-1](Images/EnEs.png)
-- Para el archivo **Scorebox.lua** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\BGAnimations\ScreenSelectMusic overlay\PerPlayer / For the archive **Scorebox.lua** -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\BGAnimations\ScreenSelectMusic overlay\PerPlayer
+- Para el archivo [Scorebox.lua](Files/Scorebox.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\BGAnimations\ScreenSelectMusic overlay\PerPlayer / For the archive [Scorebox.lua](Files/Scorebox.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\BGAnimations\ScreenSelectMusic overlay\PerPlayer
 ![Preferencia-1](Images/ScoreBox.png)
 
 # advertencias
