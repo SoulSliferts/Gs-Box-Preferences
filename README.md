@@ -11,6 +11,8 @@ Implementación de Preferencias para Groove Stats Box / Implementation of Prefer
 - [Codigo/Code](#codigo)
 - [Instalación/Installation](#instalación)
 - [Advertencias/Warnings](#advertencias)
+- [Bugs](#bugs)
+- [Funciones/functions](funciones)
 - [Créditos y Autor/Credits and Author](#Créditos)
 
 # descripción
@@ -74,7 +76,6 @@ end
 ```
 
 # instalación
-**Tutorial de Youtube:** https://youtu.be/GwjpTauOVjg<br>
 **Debes descargar los archivos que contiene la carpeta files y remplazarlos en las ubicaciones correspondientes / You must download the files contained in the files folder and replace them in the corresponding locations**
 - Para el archivo [99 SL-ThemePrefs.lua](Files/99%20SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts / For the archive [99 SL-ThemePrefs.lua](Files/99%20SL-ThemePrefs.lua) -> ITGmania\Themes\Simply-Love-SM5-itgmania-release\Scripts
 ![Preferencia-1](Images/SLFile.png)
@@ -91,6 +92,17 @@ end
 - !Esta modificacion solo funciona en los lenguajes del juego Español y Ingles! / !This mod only works in the game languages Spanish and English!
 - !Al usar más de 5 jugadores en pantalla puede que surjan bugs como que los nombres queden visibles aun cuando se está cambiando de canción(puede que no lo arregle para no saturar tanto el código de la gs box es solo una excepción visual)! / !When using more than 5 players on screen, bugs may arise such as names remaining visible even when changing songs (I may not fix this to avoid cluttering the gs box code, it's just a visual exception)!
 - !Esta modificación en 2 jugadores en partida rompe la gs box por la forma en la que se muestra por favor dejar las opciones de máximo de jugadores en 5(trataré de arreglar eso para que se desactive de manera automática en 2 jugadores)! / !This 2 player mod breaks the gs box the way it displays, please leave the max player options at 5 (I'll try to fix that so it automatically disables in 2 players)!
+
+# bugs
+```diff
+- Error en la vercion 5.6(Beta) de Zmod / Error in version 5.6 (Beta) of Zmod
+```
+
+# funciones
+```diff
+- Aplicar preferencias a la partida activa de una cancion(pronto) / Apply preferences to a song's active game (coming soon)
+- Aplicar colores a la Leaderboard de submenu(pronto) / Apply colors to the submenu leaderboard (coming soon)
+```
 
 # Créditos
 Quiero agradecer a las siguientes personas por su apoyo para realizar esta modificacion / I would like to thank the following people for their support in making this modification:
